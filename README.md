@@ -22,7 +22,6 @@ dotnet run
 Access: `https://localhost:7222`
 
 ## Current Implementation
-![Current UI](https://via.placeholder.com/800x400?text=Current+UI+Screenshot)
 
 ### Features Working
 - Basic chat interface shell

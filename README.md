@@ -1,6 +1,5 @@
 Here's your refined README.md with Jira documentation added and clearer UI improvement goals:
 
-```markdown
 # AI Documentation Buddy (MVP)
 
 ## Tech Stack
@@ -19,6 +18,7 @@ git clone https://your-repo.git
 cd AIDocBuddy
 dotnet run
 ```
+
 Access: `https://localhost:7222`
 
 ## Current Implementation
@@ -95,7 +95,6 @@ public async Task<JiraDoc> GetDocAsync(string issueKey) {
    - Build document vectorization
 
 > **Pro Tip**: Use `MudThemeProvider` to customize colors and styling
-```
 
 Key changes made:
 1. Added explicit Jira API to tech stack

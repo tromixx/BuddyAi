@@ -1,0 +1,95 @@
+﻿@page "/"
+@inject IJSRuntime JsRuntime
+@inject NavigationManager Navigation
+@using MudBlazor
+
+<div class="app-container">
+    <!-- Robot Container -->
+    <div id="robot-container" @ref="robotContainer" 
+         style="width:250px; height:250px; margin:20px;"></div>
+    
+    <!-- Chat Interface -->
+    <div class="chat-interface">
+        <MudPaper Elevation="10" Class="pa-4" Style="height: 70vh;">
+            <MudChat @bind-messages="_messages" 
+                    on-send="HandleSendMessage"
+                    user-name="You"
+                    avatar="/avatars/user.png">
+                
+                <MudChatTypingIndicator>
+                    <MudText Typo="Typo.body2">AI Buddy is typing...</MudText>
+                </MudChatTypingIndicator>
+            </MudChat>
+        </MudPaper>
+    </div>
+</div>
+
+@code {
+    private ElementReference robotContainer;
+    private List<ChatMessage> _messages = new();
+    
+    protected override async Task OnAfterRenderAsync(bool firstRender) {
+        if (firstRender) {
+            try {
+                // Wait for Three.js to load
+                while (true) {
+                    try {
+                        await JsRuntime.InvokeVoidAsync("eval", "typeof THREE !== 'undefined'");
+                        break;
+                    } catch {
+                        await Task.Delay(100);
+                    }
+                }
+                
+                // Initialize robot
+                await JsRuntime.InvokeVoidAsync("robotInterop.init");
+            }
+            catch (Exception ex) {
+                Console.WriteLine($"Robot initialization failed: {ex.Message}");
+            }
+        }
+    }
+    
+    private async Task HandleSendMessage(string message) {
+        _messages.Add(new ChatMessage("You", message, "/avatars/user.png"));
+        StateHasChanged();
+        
+        try {
+            await JsRuntime.InvokeVoidAsync("robotInterop.setTalking", true);
+            await Task.Delay(800);
+            
+            _messages.Add(new ChatMessage("AI Buddy", GetAIResponse(message), "/avatars/robot.png"));
+            StateHasChanged();
+            
+            await JsRuntime.InvokeVoidAsync("robotInterop.setTalking", false);
+        }
+        catch (Exception ex) {
+            Console.WriteLine($"Chat error: {ex.Message}");
+        }
+    }
+    
+    private string GetAIResponse(string query) {
+        var docs = new Dictionary<string, string> {
+            ["hello"] = "Hi there! I'm your documentation assistant.",
+            ["jira"] = "I can help with Jira docs. Try asking about 'PROJ-123'.",
+            ["error"] = "Check logs at /var/log/app.log"
+        };
+        return docs.FirstOrDefault(d => query.Contains(d.Key, StringComparison.OrdinalIgnoreCase)).Value 
+               ?? "I'll check the docs for that.";
+    }
+    
+    public record ChatMessage(string Sender, string Text, string Avatar);
+}
+
+<style>
+    .app-container {
+        display: flex;
+        height: 100vh;
+        padding: 20px;
+    }
+    
+    .chat-interface {
+        flex: 1;
+        margin-left: 20px;
+    }
+</style>

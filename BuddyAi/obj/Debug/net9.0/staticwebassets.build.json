@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UX3ZFHTo/DRu4C7BvMPGBHUT1tVtH8XFzX9i0rIaq6k=",
+  "Hash": "a9J35apz2T3YvChvRRsrG6q08Wk2WumJSDVXariL1+I=",
   "Source": "BuddyAi",
   "BasePath": "_content/BuddyAi",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BuddyAi/wwwroot",
       "Source": "BuddyAi",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "Pattern": "**"
     }
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "/Users/tomasvenere/.nuget/packages/mudblazor/8.5.1/staticwebassets/MudBlazor.min.js"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/0wz98yz2xy-gtd3sm4n1q.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/0wz98yz2xy-gtd3sm4n1q.gz",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js.gz",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "/Users/tomasvenere/.nuget/packages/mudblazor/8.5.1/staticwebassets/MudBlazor.min.js"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/1hy2zdugpb-sjnzgf7e1h.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/1hy2zdugpb-sjnzgf7e1h.gz",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint=sjnzgf7e1h}]?.svg.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "i4r29wi5rk",
       "Integrity": "0n4OBQVOXi8Sm/2bOfnzWT8c37ETixim+9nKHP1clyk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/99ccgkqxkp-fwe89utc6f.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/99ccgkqxkp-fwe89utc6f.gz",
       "SourceId": "BuddyAi",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "BuddyAi#[.{fingerprint=fwe89utc6f}]!.bundle.scp.css.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "nq99vssokl",
       "Integrity": "j8j+VSob5GdIYY2aRkuJxbAfN+DyGBXGb26rRd3OFq8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/ex834jlfq6-wk8x8xm0ah.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/ex834jlfq6-wk8x8xm0ah.gz",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint=wk8x8xm0ah}]?.otf.gz",
       "AssetKind": "All",
@@ -133,20 +133,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "5f5dv9y1qh",
       "Integrity": "sf9/QxpY3f89l/RB0yP6Lk1hiTTWNdVrBT4R6j1EMGo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/hcr7zqtcob-oaf0zeazvy.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/hcr7zqtcob-oaf0zeazvy.gz",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "js/robot#[.{fingerprint=oaf0zeazvy}]?.js.gz",
       "AssetKind": "All",
@@ -154,20 +154,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/js/robot.js",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/js/robot.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "orzrzxulhk",
       "Integrity": "1DQkbbkcUsZStILpMIaggfv+PeKRNXYjvkh+zJIeASo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/js/robot.js"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/js/robot.js"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/igh1sh8abx-cmapd0fi15.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/igh1sh8abx-cmapd0fi15.gz",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint=cmapd0fi15}]?.css.gz",
       "AssetKind": "All",
@@ -175,20 +175,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "kfhqrgg0g0",
       "Integrity": "wBUytWozTS5t/guAjoMbKzBBdfPlpUV4ix3TrrUwKpg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kpl6gzms48-zh9s866nx2.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kpl6gzms48-zh9s866nx2.gz",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/site#[.{fingerprint=zh9s866nx2}]?.css.gz",
       "AssetKind": "All",
@@ -196,20 +196,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/site.css",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "mxvlxbshei",
       "Integrity": "Fp6PmuRsVGr4Y+Ew8SKU7Zge5VmbSwKs1TEa50tbfs0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/site.css"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tcfkc54o11-bpk8xqwxhs.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tcfkc54o11-bpk8xqwxhs.gz",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=bpk8xqwxhs}]?.css.gz",
       "AssetKind": "All",
@@ -217,20 +217,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "wg8z90xh4u",
       "Integrity": "oA7vaP7X1hcAU8RGnp4MFBWtZmukcKCru5+LrmzIqeg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tvdq2eqn5o-5bzwdl5l6x.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tvdq2eqn5o-5bzwdl5l6x.gz",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/README#[.{fingerprint=5bzwdl5l6x}]?.md.gz",
       "AssetKind": "All",
@@ -238,20 +238,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/README.md",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/README.md",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "y2w10n3b81",
       "Integrity": "qgRso4o4WG91g/KGQUrB40Mwmp5sDdyYdHlmx/VwhcY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/README.md"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tzxjg6is5z-u34o0xbo4m.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tzxjg6is5z-u34o0xbo4m.gz",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css.gz",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "/Users/tomasvenere/.nuget/packages/mudblazor/8.5.1/staticwebassets/MudBlazor.min.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/vjqre2av2u-8inm30yfxf.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/vjqre2av2u-8inm30yfxf.gz",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
       "AssetKind": "All",
@@ -280,20 +280,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "a5iolpc9xz",
       "Integrity": "3qo3UHtt1eBcfATKJXtIrY+ZdPuBA21DhCoR49jAwbE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css.map"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/wrdeo2iobb-fwe89utc6f.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/wrdeo2iobb-fwe89utc6f.gz",
       "SourceId": "BuddyAi",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "BuddyAi#[.{fingerprint=fwe89utc6f}]?.styles.css.gz",
       "AssetKind": "All",
@@ -301,20 +301,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "nq99vssokl",
       "Integrity": "j8j+VSob5GdIYY2aRkuJxbAfN+DyGBXGb26rRd3OFq8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css",
       "SourceId": "BuddyAi",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "BuddyAi#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -329,13 +329,13 @@
       "Integrity": "kVGiJV5iquCRpCKqiOnSrmDPzbhgyW4Huk6nyL+9oxI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css",
       "SourceId": "BuddyAi",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "BuddyAi#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -350,13 +350,55 @@
       "Integrity": "kVGiJV5iquCRpCKqiOnSrmDPzbhgyW4Huk6nyL+9oxI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css"
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/avatars/robot_talking.gif",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/PurpleRobbotTalking.png",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
+      "BasePath": "_content/BuddyAi",
+      "RelativePath": "avatars/PurpleRobbotTalking#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zjgbo4dr47",
+      "Integrity": "cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/avatars/PurpleRobbotTalking.png"
+    },
+    {
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/PurpleRobot.png",
+      "SourceId": "BuddyAi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
+      "BasePath": "_content/BuddyAi",
+      "RelativePath": "avatars/PurpleRobot#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7zem78x020",
+      "Integrity": "rXMUMVi0vmu8ytd+XCfJVroUJBMwjAlIgyC0bbTxCvg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/avatars/PurpleRobot.png"
+    },
+    {
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/robot_talking.gif",
+      "SourceId": "BuddyAi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "avatars/robot_talking#[.{fingerprint}]?.gif",
       "AssetKind": "All",
@@ -374,10 +416,10 @@
       "OriginalItemSpec": "wwwroot/avatars/robot_talking.gif"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/avatars/robot.png",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/robot.png",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "avatars/robot#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -395,10 +437,10 @@
       "OriginalItemSpec": "wwwroot/avatars/robot.png"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/avatars/user.png",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/user.png",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "avatars/user#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -416,10 +458,10 @@
       "OriginalItemSpec": "wwwroot/avatars/user.png"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -437,10 +479,10 @@
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -458,10 +500,10 @@
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -479,10 +521,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -500,10 +542,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -521,10 +563,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
       "AssetKind": "All",
@@ -542,10 +584,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -563,10 +605,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -584,10 +626,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -605,10 +647,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/ICON-LICENSE",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -626,10 +668,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/README.md",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/README.md",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -647,10 +689,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/site.css",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/site.css",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -668,10 +710,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/favicon.png",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/favicon.png",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -689,10 +731,10 @@
       "OriginalItemSpec": "wwwroot/favicon.png"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/js/robot.js",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/js/robot.js",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
       "BasePath": "_content/BuddyAi",
       "RelativePath": "js/robot#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -750,7 +792,7 @@
     },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tzxjg6is5z-u34o0xbo4m.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tzxjg6is5z-u34o0xbo4m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -805,7 +847,7 @@
     },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tzxjg6is5z-u34o0xbo4m.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tzxjg6is5z-u34o0xbo4m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -932,7 +974,7 @@
     },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.js",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/0wz98yz2xy-gtd3sm4n1q.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/0wz98yz2xy-gtd3sm4n1q.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -987,7 +1029,7 @@
     },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.js.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/0wz98yz2xy-gtd3sm4n1q.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/0wz98yz2xy-gtd3sm4n1q.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1076,8 +1118,172 @@
       ]
     },
     {
+      "Route": "avatars/PurpleRobbotTalking.png",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/PurpleRobbotTalking.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2497777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 03:50:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/PurpleRobbotTalking.zjgbo4dr47.png",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/PurpleRobbotTalking.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2497777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 03:50:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjgbo4dr47"
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/PurpleRobbotTalking.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/PurpleRobot.7zem78x020.png",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/PurpleRobot.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2622056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rXMUMVi0vmu8ytd+XCfJVroUJBMwjAlIgyC0bbTxCvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 03:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zem78x020"
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/PurpleRobot.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rXMUMVi0vmu8ytd+XCfJVroUJBMwjAlIgyC0bbTxCvg="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/PurpleRobot.png",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/PurpleRobot.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2622056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rXMUMVi0vmu8ytd+XCfJVroUJBMwjAlIgyC0bbTxCvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 03:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rXMUMVi0vmu8ytd+XCfJVroUJBMwjAlIgyC0bbTxCvg="
+        }
+      ]
+    },
+    {
       "Route": "avatars/robot_talking.5ipweew5fc.gif",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/avatars/robot_talking.gif",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/robot_talking.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1122,7 +1328,7 @@
     },
     {
       "Route": "avatars/robot_talking.gif",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/avatars/robot_talking.gif",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/robot_talking.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1159,7 +1365,7 @@
     },
     {
       "Route": "avatars/robot.a5vw4gz9vq.png",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/avatars/robot.png",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/robot.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1204,7 +1410,7 @@
     },
     {
       "Route": "avatars/robot.png",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/avatars/robot.png",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/robot.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1241,7 +1447,7 @@
     },
     {
       "Route": "avatars/user.5ipweew5fc.png",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/avatars/user.png",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/user.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1286,7 +1492,7 @@
     },
     {
       "Route": "avatars/user.png",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/avatars/user.png",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/user.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1323,7 +1529,7 @@
     },
     {
       "Route": "BuddyAi.bundle.scp.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/99ccgkqxkp-fwe89utc6f.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/99ccgkqxkp-fwe89utc6f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1378,7 +1584,7 @@
     },
     {
       "Route": "BuddyAi.bundle.scp.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1415,7 +1621,7 @@
     },
     {
       "Route": "BuddyAi.bundle.scp.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/99ccgkqxkp-fwe89utc6f.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/99ccgkqxkp-fwe89utc6f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1460,7 +1666,7 @@
     },
     {
       "Route": "BuddyAi.fwe89utc6f.bundle.scp.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/99ccgkqxkp-fwe89utc6f.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/99ccgkqxkp-fwe89utc6f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1523,7 +1729,7 @@
     },
     {
       "Route": "BuddyAi.fwe89utc6f.bundle.scp.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/projectbundle/BuddyAi.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1568,7 +1774,7 @@
     },
     {
       "Route": "BuddyAi.fwe89utc6f.bundle.scp.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/99ccgkqxkp-fwe89utc6f.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/99ccgkqxkp-fwe89utc6f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1621,7 +1827,7 @@
     },
     {
       "Route": "BuddyAi.fwe89utc6f.styles.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/wrdeo2iobb-fwe89utc6f.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/wrdeo2iobb-fwe89utc6f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1684,7 +1890,7 @@
     },
     {
       "Route": "BuddyAi.fwe89utc6f.styles.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1729,7 +1935,7 @@
     },
     {
       "Route": "BuddyAi.fwe89utc6f.styles.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/wrdeo2iobb-fwe89utc6f.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/wrdeo2iobb-fwe89utc6f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1782,7 +1988,7 @@
     },
     {
       "Route": "BuddyAi.styles.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/wrdeo2iobb-fwe89utc6f.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/wrdeo2iobb-fwe89utc6f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1837,7 +2043,7 @@
     },
     {
       "Route": "BuddyAi.styles.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/scopedcss/bundle/BuddyAi.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1874,7 +2080,7 @@
     },
     {
       "Route": "BuddyAi.styles.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/wrdeo2iobb-fwe89utc6f.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/wrdeo2iobb-fwe89utc6f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1919,7 +2125,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tcfkc54o11-bpk8xqwxhs.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tcfkc54o11-bpk8xqwxhs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1982,7 +2188,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2027,7 +2233,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tcfkc54o11-bpk8xqwxhs.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tcfkc54o11-bpk8xqwxhs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2080,7 +2286,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tcfkc54o11-bpk8xqwxhs.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tcfkc54o11-bpk8xqwxhs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2135,7 +2341,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2172,7 +2378,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/vjqre2av2u-8inm30yfxf.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/vjqre2av2u-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2235,7 +2441,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2280,7 +2486,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/vjqre2av2u-8inm30yfxf.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/vjqre2av2u-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2333,7 +2539,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tcfkc54o11-bpk8xqwxhs.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tcfkc54o11-bpk8xqwxhs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2378,7 +2584,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/vjqre2av2u-8inm30yfxf.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/vjqre2av2u-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2433,7 +2639,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2470,7 +2676,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/vjqre2av2u-8inm30yfxf.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/vjqre2av2u-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2515,7 +2721,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/FONT-LICENSE",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2552,7 +2758,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/FONT-LICENSE",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2597,7 +2803,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/igh1sh8abx-cmapd0fi15.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/igh1sh8abx-cmapd0fi15.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2660,7 +2866,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2705,7 +2911,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/igh1sh8abx-cmapd0fi15.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/igh1sh8abx-cmapd0fi15.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2758,7 +2964,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/igh1sh8abx-cmapd0fi15.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/igh1sh8abx-cmapd0fi15.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2813,7 +3019,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2850,7 +3056,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/igh1sh8abx-cmapd0fi15.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/igh1sh8abx-cmapd0fi15.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2895,7 +3101,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2940,7 +3146,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.eot",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2977,7 +3183,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3022,7 +3228,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3067,7 +3273,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/ex834jlfq6-wk8x8xm0ah.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/ex834jlfq6-wk8x8xm0ah.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3122,7 +3328,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3159,7 +3365,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/ex834jlfq6-wk8x8xm0ah.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/ex834jlfq6-wk8x8xm0ah.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3204,7 +3410,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/1hy2zdugpb-sjnzgf7e1h.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/1hy2zdugpb-sjnzgf7e1h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3267,7 +3473,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3312,7 +3518,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/1hy2zdugpb-sjnzgf7e1h.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/1hy2zdugpb-sjnzgf7e1h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3365,7 +3571,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/1hy2zdugpb-sjnzgf7e1h.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/1hy2zdugpb-sjnzgf7e1h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3420,7 +3626,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3457,7 +3663,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/1hy2zdugpb-sjnzgf7e1h.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/1hy2zdugpb-sjnzgf7e1h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3502,7 +3708,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3539,7 +3745,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/ex834jlfq6-wk8x8xm0ah.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/ex834jlfq6-wk8x8xm0ah.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3602,7 +3808,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3647,7 +3853,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/ex834jlfq6-wk8x8xm0ah.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/ex834jlfq6-wk8x8xm0ah.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3700,7 +3906,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.woff",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3737,7 +3943,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/ICON-LICENSE",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3774,7 +3980,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/ICON-LICENSE",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3819,7 +4025,7 @@
     },
     {
       "Route": "css/open-iconic/README.5bzwdl5l6x.md",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tvdq2eqn5o-5bzwdl5l6x.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tvdq2eqn5o-5bzwdl5l6x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3882,7 +4088,7 @@
     },
     {
       "Route": "css/open-iconic/README.5bzwdl5l6x.md",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/README.md",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3927,7 +4133,7 @@
     },
     {
       "Route": "css/open-iconic/README.5bzwdl5l6x.md.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tvdq2eqn5o-5bzwdl5l6x.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tvdq2eqn5o-5bzwdl5l6x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3980,7 +4186,7 @@
     },
     {
       "Route": "css/open-iconic/README.md",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tvdq2eqn5o-5bzwdl5l6x.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tvdq2eqn5o-5bzwdl5l6x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4035,7 +4241,7 @@
     },
     {
       "Route": "css/open-iconic/README.md",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/open-iconic/README.md",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4072,7 +4278,7 @@
     },
     {
       "Route": "css/open-iconic/README.md.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tvdq2eqn5o-5bzwdl5l6x.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tvdq2eqn5o-5bzwdl5l6x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4117,7 +4323,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kpl6gzms48-zh9s866nx2.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kpl6gzms48-zh9s866nx2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4172,7 +4378,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/site.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4209,7 +4415,7 @@
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kpl6gzms48-zh9s866nx2.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kpl6gzms48-zh9s866nx2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4254,7 +4460,7 @@
     },
     {
       "Route": "css/site.zh9s866nx2.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kpl6gzms48-zh9s866nx2.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kpl6gzms48-zh9s866nx2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4317,7 +4523,7 @@
     },
     {
       "Route": "css/site.zh9s866nx2.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/css/site.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4362,7 +4568,7 @@
     },
     {
       "Route": "css/site.zh9s866nx2.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kpl6gzms48-zh9s866nx2.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kpl6gzms48-zh9s866nx2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4415,7 +4621,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/favicon.png",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4460,7 +4666,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/favicon.png",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4497,7 +4703,7 @@
     },
     {
       "Route": "js/robot.js",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/hcr7zqtcob-oaf0zeazvy.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/hcr7zqtcob-oaf0zeazvy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4552,7 +4758,7 @@
     },
     {
       "Route": "js/robot.js",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/js/robot.js",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/js/robot.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4589,7 +4795,7 @@
     },
     {
       "Route": "js/robot.js.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/hcr7zqtcob-oaf0zeazvy.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/hcr7zqtcob-oaf0zeazvy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4634,7 +4840,7 @@
     },
     {
       "Route": "js/robot.oaf0zeazvy.js",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/hcr7zqtcob-oaf0zeazvy.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/hcr7zqtcob-oaf0zeazvy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4697,7 +4903,7 @@
     },
     {
       "Route": "js/robot.oaf0zeazvy.js",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/wwwroot/js/robot.js",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/js/robot.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4742,7 +4948,7 @@
     },
     {
       "Route": "js/robot.oaf0zeazvy.js.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/hcr7zqtcob-oaf0zeazvy.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/hcr7zqtcob-oaf0zeazvy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

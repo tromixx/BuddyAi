@@ -665,6 +665,170 @@
       ]
     },
     {
+      "Route": "avatars/PurpleRobbotTalking.png",
+      "AssetFile": "avatars/PurpleRobbotTalking.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2497777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 03:50:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/PurpleRobbotTalking.zjgbo4dr47.png",
+      "AssetFile": "avatars/PurpleRobbotTalking.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2497777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 03:50:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjgbo4dr47"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/PurpleRobbotTalking.png"
+        }
+      ]
+    },
+    {
+      "Route": "avatars/PurpleRobot.7zem78x020.png",
+      "AssetFile": "avatars/PurpleRobot.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2622056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rXMUMVi0vmu8ytd+XCfJVroUJBMwjAlIgyC0bbTxCvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 03:44:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zem78x020"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rXMUMVi0vmu8ytd+XCfJVroUJBMwjAlIgyC0bbTxCvg="
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/PurpleRobot.png"
+        }
+      ]
+    },
+    {
+      "Route": "avatars/PurpleRobot.png",
+      "AssetFile": "avatars/PurpleRobot.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2622056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rXMUMVi0vmu8ytd+XCfJVroUJBMwjAlIgyC0bbTxCvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 03:44:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rXMUMVi0vmu8ytd+XCfJVroUJBMwjAlIgyC0bbTxCvg="
+        }
+      ]
+    },
+    {
       "Route": "avatars/robot.a5vw4gz9vq.png",
       "AssetFile": "avatars/robot.png",
       "Selectors": [],

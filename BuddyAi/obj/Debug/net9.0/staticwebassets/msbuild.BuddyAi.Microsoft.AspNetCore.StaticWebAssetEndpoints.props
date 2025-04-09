@@ -1,28 +1,28 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/BuddyAi/avatars/PurpleRobbotTalking.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\PurpleRobbotTalking.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2497777"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 03:50:55 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BuddyAi/avatars/PurpleRobbotTalking.zjgbo4dr47.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\PurpleRobbotTalking.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zjgbo4dr47"},{"Name":"integrity","Value":"sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="},{"Name":"label","Value":"_content/BuddyAi/avatars/PurpleRobbotTalking.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2497777"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 03:50:55 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BuddyAi/avatars/PurpleRobot.7zem78x020.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\PurpleRobot.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7zem78x020"},{"Name":"integrity","Value":"sha256-rXMUMVi0vmu8ytd\u002BXCfJVroUJBMwjAlIgyC0bbTxCvg="},{"Name":"label","Value":"_content/BuddyAi/avatars/PurpleRobot.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2622056"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022rXMUMVi0vmu8ytd\u002BXCfJVroUJBMwjAlIgyC0bbTxCvg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 03:44:42 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2622056"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022rXMUMVi0vmu8ytd\u002BXCfJVroUJBMwjAlIgyC0bbTxCvg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 04:09:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BuddyAi/avatars/PurpleRobot.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\PurpleRobot.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rXMUMVi0vmu8ytd\u002BXCfJVroUJBMwjAlIgyC0bbTxCvg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2622056"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022rXMUMVi0vmu8ytd\u002BXCfJVroUJBMwjAlIgyC0bbTxCvg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 03:44:42 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2622056"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022rXMUMVi0vmu8ytd\u002BXCfJVroUJBMwjAlIgyC0bbTxCvg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 04:09:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BuddyAi/avatars/PurpleRobotTalking.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\PurpleRobotTalking.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2497777"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 04:09:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BuddyAi/avatars/PurpleRobotTalking.zjgbo4dr47.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\PurpleRobotTalking.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zjgbo4dr47"},{"Name":"integrity","Value":"sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="},{"Name":"label","Value":"_content/BuddyAi/avatars/PurpleRobotTalking.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2497777"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 04:09:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BuddyAi/avatars/robot.a5vw4gz9vq.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\robot.png'))</AssetFile>

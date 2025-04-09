@@ -5,12 +5,12 @@
       "PackagePath": "staticwebassets/BuddyAi.fwe89utc6f.bundle.scp.css"
     },
     {
-      "Id": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/PurpleRobbotTalking.png",
-      "PackagePath": "staticwebassets/avatars/PurpleRobbotTalking.png"
-    },
-    {
       "Id": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/PurpleRobot.png",
       "PackagePath": "staticwebassets/avatars/PurpleRobot.png"
+    },
+    {
+      "Id": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/PurpleRobotTalking.png",
+      "PackagePath": "staticwebassets/avatars/PurpleRobotTalking.png"
     },
     {
       "Id": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/avatars/robot.png",

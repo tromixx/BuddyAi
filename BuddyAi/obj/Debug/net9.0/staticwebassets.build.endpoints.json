@@ -665,88 +665,6 @@
       ]
     },
     {
-      "Route": "avatars/PurpleRobbotTalking.png",
-      "AssetFile": "avatars/PurpleRobbotTalking.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2497777"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 03:50:55 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="
-        }
-      ]
-    },
-    {
-      "Route": "avatars/PurpleRobbotTalking.zjgbo4dr47.png",
-      "AssetFile": "avatars/PurpleRobbotTalking.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2497777"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 03:50:55 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zjgbo4dr47"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="
-        },
-        {
-          "Name": "label",
-          "Value": "avatars/PurpleRobbotTalking.png"
-        }
-      ]
-    },
-    {
       "Route": "avatars/PurpleRobot.7zem78x020.png",
       "AssetFile": "avatars/PurpleRobot.png",
       "Selectors": [],
@@ -773,7 +691,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 03:44:42 GMT"
+          "Value": "Wed, 09 Apr 2025 04:09:51 GMT"
         }
       ],
       "EndpointProperties": [
@@ -818,13 +736,95 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 03:44:42 GMT"
+          "Value": "Wed, 09 Apr 2025 04:09:51 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-rXMUMVi0vmu8ytd+XCfJVroUJBMwjAlIgyC0bbTxCvg="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/PurpleRobotTalking.png",
+      "AssetFile": "avatars/PurpleRobotTalking.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2497777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 04:09:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/PurpleRobotTalking.zjgbo4dr47.png",
+      "AssetFile": "avatars/PurpleRobotTalking.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2497777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 04:09:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjgbo4dr47"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZ8RLbQKir3nOw5TgC0dtrd94UhbBTszRLxe8Vf7ZBc="
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/PurpleRobotTalking.png"
         }
       ]
     },

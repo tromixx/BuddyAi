@@ -52,31 +52,24 @@
             </div>
             
             <div class="input-container">
-            <MudTextField @bind-Value="_currentMessage" 
-             Variant="Variant.Outlined"
-             FullWidth="true"
-             Placeholder="Ask me anything..."
-             Immediate="true"
-             OnKeyPress="HandleKeyPress">
-            <Adornment>
-            <MudIconButton Icon="@Icons.Material.Filled.Send" 
-                     Color="Color.Primary"
-                     OnClick="SendMessage" />
-            </Adornment>
-            </MudTextField>
+                <MudTextField @bind-Value="_currentMessage" 
+                             Variant="Variant.Outlined"
+                             FullWidth="true"
+                             Placeholder="Ask me anything..."
+                             Immediate="true"
+                             OnKeyDown="@OnKeyDown">
+                    <Adornment>
+                        <MudIconButton Icon="@Icons.Material.Filled.Send" 
+                                     Color="Color.Primary"
+                                     OnClick="SendMessage" />
+                    </Adornment>
+                </MudTextField>
             </div>
         </MudPaper>
     </div>
 </div>
 
 @code {
-    private void HandleKeyPress(KeyboardEventArgs e)
-    {
-        if (e.Key == "Enter")
-        {
-            SendMessage();
-        }
-    }
     private List<ChatMessage> _messages = new();
     private string _currentMessage = string.Empty;
     private bool _isTyping = false;
@@ -84,7 +77,7 @@
     private string _currentRobotImage = "/avatars/PurpleRobot.png";
     private DotNetObjectReference<Index>? _objRef;
     private Timer? _typingTimer;
-    private string _pendingResponse = string.Empty;
+    private string _pendingResponse = "At the moment we are under maintenance...";
     private int _responseIndex = 0;
 
     protected override void OnInitialized()
@@ -96,6 +89,14 @@
             "Hi! My name is Purple Pete and I'm here to help!", 
             "/avatars/PurpleRobot.png"
         ));
+    }
+
+    private async Task OnKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            await SendMessage();
+        }
     }
 
     private async Task SendMessage()
@@ -113,7 +114,6 @@
         StateHasChanged();
         
         // Set up the typing animation
-        _pendingResponse = "Hi! My name is Purple Pete and I'm here to help!";
         _responseIndex = 0;
         
         _typingTimer = new Timer(async _ => 
@@ -150,7 +150,7 @@
                     StateHasChanged();
                 }
             });
-        }, null, 0, 30); // Adjust typing speed here (milliseconds between characters)
+        }, null, 0, 100); // 100ms between characters (~4 second total typing time)
     }
 
     public void Dispose()
@@ -163,7 +163,6 @@
 }
 
 <style>
-    /* [Previous CSS remains exactly the same] */
     .app-container {
         display: flex;
         height: 100vh;
@@ -177,12 +176,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        position: sticky;
+        top: 20px;
+        align-self: flex-start;
     }
     
     .robot-image {
         max-width: 100%;
         height: auto;
         transition: transform 0.3s ease;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     
     .pulse-animation {

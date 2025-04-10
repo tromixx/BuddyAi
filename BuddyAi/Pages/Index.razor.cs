@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using Microsoft.JSInterop;
 using MudBlazor;
-//using System.Timers;
 using BuddyAi.Models;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.JSInterop;
+using System.Timers;
 
 namespace BuddyAi.Pages
 {
@@ -14,14 +16,15 @@ namespace BuddyAi.Pages
         private bool _isTyping = false;
         private bool _isRobotActive = false;
         private string _currentRobotImage = "/avatars/PurpleRobot.png";
-        private DotNetObjectReference<Index>? _objRef;
-        private Timer? _typingTimer;
-        private string _pendingResponse = "At the moment we are under maintenance...";
+        private System.Timers.Timer? _typingTimer;
         private int _responseIndex = 0;
+        private string _pendingResponse = "At the moment we are under maintenance...";
+
+        private ElementReference _messagesContainer;
+        private MudTextField<string>? _messageInputRef;
 
         protected override void OnInitialized()
         {
-            _objRef = DotNetObjectReference.Create(this);
             _messages.Add(new ChatMessage(
                 "Purple Pete",
                 "Hi! My name is Purple Pete and I'm here to help!",
@@ -41,8 +44,11 @@ namespace BuddyAi.Pages
         {
             if (string.IsNullOrWhiteSpace(_currentMessage)) return;
 
-            _messages.Add(new ChatMessage("You", _currentMessage, null));
+            var userMessage = _currentMessage;
+            _messages.Add(new ChatMessage("You", userMessage, null));
             _currentMessage = string.Empty;
+            await ScrollToBottom();
+            await Task.Delay(100); // let UI update before animation starts
 
             _isTyping = true;
             _isRobotActive = true;
@@ -50,46 +56,55 @@ namespace BuddyAi.Pages
             StateHasChanged();
 
             _responseIndex = 0;
+            _typingTimer?.Dispose();
+            _typingTimer = new System.Timers.Timer(60); 
+            _typingTimer.Elapsed += async (_, _) => await TypeOutBotResponse();
+            _typingTimer.Start();
+        }
 
-            _typingTimer = new Timer(async _ =>
+        private async Task TypeOutBotResponse()
+        {
+            await InvokeAsync(async () =>
             {
-                await InvokeAsync(() =>
+                if (_responseIndex < _pendingResponse.Length)
                 {
-                    if (_responseIndex < _pendingResponse.Length)
-                    {
-                        var currentText = _pendingResponse.Substring(0, _responseIndex + 1);
+                    var currentText = _pendingResponse.Substring(0, _responseIndex + 1);
 
-                        if (_messages.LastOrDefault()?.Sender == "Purple Pete")
-                        {
-                            _messages.RemoveAt(_messages.Count - 1);
-                        }
+                    // Remove last bot message if exists
+                    if (_messages.LastOrDefault()?.Sender == "Purple Pete")
+                        _messages.RemoveAt(_messages.Count - 1);
 
-                        _messages.Add(new ChatMessage(
-                            "Purple Pete",
-                            currentText,
-                            "/avatars/PurpleRobotTalking.png"
-                        ));
+                    _messages.Add(new ChatMessage(
+                        "Purple Pete",
+                        currentText,
+                        "/avatars/PurpleRobotTalking.png"
+                    ));
 
-                        _responseIndex++;
-                        StateHasChanged();
-                    }
-                    else
-                    {
-                        _typingTimer?.Dispose();
-                        _typingTimer = null;
-                        _isTyping = false;
-                        _isRobotActive = false;
-                        _currentRobotImage = "/avatars/PurpleRobot.png";
-                        StateHasChanged();
-                    }
-                });
-            }, null, 0, 100);
+                    _responseIndex++;
+                    StateHasChanged();
+                    await ScrollToBottom();
+                }
+                else
+                {
+                    _typingTimer?.Stop();
+                    _typingTimer?.Dispose();
+                    _isTyping = false;
+                    _isRobotActive = false;
+                    _currentRobotImage = "/avatars/PurpleRobot.png";
+                    StateHasChanged();
+                }
+            });
+        }
+
+        private async Task ScrollToBottom()
+        {
+            await Task.Delay(50); 
+            await JsRuntime.InvokeVoidAsync("scrollToBottom", _messagesContainer); 
         }
 
         public void Dispose()
         {
             _typingTimer?.Dispose();
-            _objRef?.Dispose();
         }
     }
 }

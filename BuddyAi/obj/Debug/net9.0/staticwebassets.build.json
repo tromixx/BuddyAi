@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R3GKAXdZqT6QnTgYA3IVfy9HsGyQZeQPToLUOrSBRpc=",
+  "Hash": "GQ2wAQU6da3OBTKlOuT2+nuOCSxSm/zckikUy4wZhhs=",
   "Source": "BuddyAi",
   "BasePath": "_content/BuddyAi",
   "Mode": "Default",
@@ -185,12 +185,12 @@
       "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-qi9lzz2o2m.gz",
       "SourceId": "BuddyAi",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BuddyAi",
-      "RelativePath": "css/index#[.{fingerprint=l0c01c6vhv}]?.css.gz",
+      "RelativePath": "css/index#[.{fingerprint=qi9lzz2o2m}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -199,8 +199,8 @@
       "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/index.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5ke3bqauyc",
-      "Integrity": "dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw=",
+      "Fingerprint": "6muvk6yb0a",
+      "Integrity": "Qge0ter89o+0T5ZPEbMLOpupG57pACxz5M4B2Y78JC8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/index.css"
@@ -535,8 +535,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "l0c01c6vhv",
-      "Integrity": "1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU=",
+      "Fingerprint": "qi9lzz2o2m",
+      "Integrity": "crKSMAc3qFk6Bx90g/VwcQUwQZUYH4F0w6wOTZLq0SU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/index.css"
@@ -1594,7 +1594,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1647,7 +1647,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1684,7 +1684,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1731,7 +1731,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1792,7 +1792,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1837,7 +1837,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1892,7 +1892,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1953,7 +1953,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1998,7 +1998,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2053,7 +2053,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2106,7 +2106,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2143,7 +2143,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 19:02:16 GMT"
+          "Value": "Thu, 10 Apr 2025 04:42:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2763,12 +2763,12 @@
     },
     {
       "Route": "css/index.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-qi9lzz2o2m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001267427123"
+          "Quality": "0.001261034048"
         }
       ],
       "ResponseHeaders": [
@@ -2778,15 +2778,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "788"
+          "Value": "792"
         },
         {
           "Name": "ETag",
-          "Value": "\"dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw=\""
+          "Value": "\"Qge0ter89o+0T5ZPEbMLOpupG57pACxz5M4B2Y78JC8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+          "Value": "Thu, 10 Apr 2025 04:34:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2806,13 +2806,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU=\""
+          "Value": "W/\"crKSMAc3qFk6Bx90g/VwcQUwQZUYH4F0w6wOTZLq0SU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU="
+          "Value": "sha256-crKSMAc3qFk6Bx90g/VwcQUwQZUYH4F0w6wOTZLq0SU="
         }
       ]
     },
@@ -2827,7 +2827,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2436"
+          "Value": "2364"
         },
         {
           "Name": "Content-Type",
@@ -2835,11 +2835,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU=\""
+          "Value": "\"crKSMAc3qFk6Bx90g/VwcQUwQZUYH4F0w6wOTZLq0SU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+          "Value": "Thu, 10 Apr 2025 04:34:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2849,13 +2849,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU="
+          "Value": "sha256-crKSMAc3qFk6Bx90g/VwcQUwQZUYH4F0w6wOTZLq0SU="
         }
       ]
     },
     {
       "Route": "css/index.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-qi9lzz2o2m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2864,7 +2864,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "788"
+          "Value": "792"
         },
         {
           "Name": "Content-Type",
@@ -2872,11 +2872,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw=\""
+          "Value": "\"Qge0ter89o+0T5ZPEbMLOpupG57pACxz5M4B2Y78JC8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+          "Value": "Thu, 10 Apr 2025 04:34:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2894,18 +2894,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw="
+          "Value": "sha256-Qge0ter89o+0T5ZPEbMLOpupG57pACxz5M4B2Y78JC8="
         }
       ]
     },
     {
-      "Route": "css/index.l0c01c6vhv.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz",
+      "Route": "css/index.qi9lzz2o2m.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-qi9lzz2o2m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001267427123"
+          "Quality": "0.001261034048"
         }
       ],
       "ResponseHeaders": [
@@ -2915,15 +2915,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "788"
+          "Value": "792"
         },
         {
           "Name": "ETag",
-          "Value": "\"dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw=\""
+          "Value": "\"Qge0ter89o+0T5ZPEbMLOpupG57pACxz5M4B2Y78JC8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+          "Value": "Thu, 10 Apr 2025 04:34:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2943,13 +2943,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU=\""
+          "Value": "W/\"crKSMAc3qFk6Bx90g/VwcQUwQZUYH4F0w6wOTZLq0SU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l0c01c6vhv"
+          "Value": "qi9lzz2o2m"
         },
         {
           "Name": "label",
@@ -2957,12 +2957,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU="
+          "Value": "sha256-crKSMAc3qFk6Bx90g/VwcQUwQZUYH4F0w6wOTZLq0SU="
         }
       ]
     },
     {
-      "Route": "css/index.l0c01c6vhv.css",
+      "Route": "css/index.qi9lzz2o2m.css",
       "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2972,7 +2972,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2436"
+          "Value": "2364"
         },
         {
           "Name": "Content-Type",
@@ -2980,11 +2980,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU=\""
+          "Value": "\"crKSMAc3qFk6Bx90g/VwcQUwQZUYH4F0w6wOTZLq0SU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+          "Value": "Thu, 10 Apr 2025 04:34:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2994,7 +2994,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l0c01c6vhv"
+          "Value": "qi9lzz2o2m"
         },
         {
           "Name": "label",
@@ -3002,13 +3002,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU="
+          "Value": "sha256-crKSMAc3qFk6Bx90g/VwcQUwQZUYH4F0w6wOTZLq0SU="
         }
       ]
     },
     {
-      "Route": "css/index.l0c01c6vhv.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz",
+      "Route": "css/index.qi9lzz2o2m.css.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-qi9lzz2o2m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3017,7 +3017,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "788"
+          "Value": "792"
         },
         {
           "Name": "Content-Type",
@@ -3025,11 +3025,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw=\""
+          "Value": "\"Qge0ter89o+0T5ZPEbMLOpupG57pACxz5M4B2Y78JC8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+          "Value": "Thu, 10 Apr 2025 04:34:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3047,7 +3047,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l0c01c6vhv"
+          "Value": "qi9lzz2o2m"
         },
         {
           "Name": "label",
@@ -3055,7 +3055,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw="
+          "Value": "sha256-Qge0ter89o+0T5ZPEbMLOpupG57pACxz5M4B2Y78JC8="
         }
       ]
     },

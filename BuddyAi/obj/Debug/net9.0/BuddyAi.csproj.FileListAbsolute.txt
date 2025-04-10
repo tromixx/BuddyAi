@@ -64,8 +64,8 @@
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/bin/Debug/net9.0/appsettings.Development.json
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/bin/Debug/net9.0/appsettings.json
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/bin/Debug/net9.0/global.json
-/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/bin/Debug/net9.0/BuddyAi.staticwebassets.endpoints.json
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/bin/Debug/net9.0/BuddyAi.staticwebassets.runtime.json
+/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/bin/Debug/net9.0/BuddyAi.staticwebassets.endpoints.json
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/bin/Debug/net9.0/BuddyAi
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/bin/Debug/net9.0/BuddyAi.deps.json
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/bin/Debug/net9.0/BuddyAi.runtimeconfig.json
@@ -102,6 +102,7 @@
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/0wz98yz2xy-gtd3sm4n1q.gz
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/tcfkc54o11-bpk8xqwxhs.gz
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/vjqre2av2u-8inm30yfxf.gz
+/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-qi9lzz2o2m.gz
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/igh1sh8abx-cmapd0fi15.gz
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/ex834jlfq6-wk8x8xm0ah.gz
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/1hy2zdugpb-sjnzgf7e1h.gz
@@ -125,4 +126,3 @@
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/BuddyAi.pdb
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/BuddyAi.genruntimeconfig.cache
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/ref/BuddyAi.dll
-/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz

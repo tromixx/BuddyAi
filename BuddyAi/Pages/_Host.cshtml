@@ -38,5 +38,12 @@
     <script src="_framework/blazor.server.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
     <script src="~/js/robot.js" type="module"></script>
+    <script>
+    window.scrollToBottom = (element) => {
+        if (element) {
+            element.scrollTop = element.scrollHeight;
+        }
+    };
+    </script>
 </body>
 </html>

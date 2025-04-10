@@ -29,15 +29,9 @@
 }
 
 @keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
-    100% {
-        transform: scale(1);
-    }
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
 }
 
 .chat-interface {
@@ -60,6 +54,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    scroll-behavior: smooth;
 }
 
 .message {
@@ -126,12 +121,8 @@
 }
 
 @keyframes typing {
-    0%, 60%, 100% {
-        transform: translateY(0);
-    }
-    30% {
-        transform: translateY(-5px);
-    }
+    0%, 60%, 100% { transform: translateY(0); }
+    30% { transform: translateY(-5px); }
 }
 
 .input-container {
@@ -148,10 +139,6 @@
 
     .robot-display {
         width: 150px;
-        margin: 0 auto;
-    }
-
-    .message {
-        max-width: 90%;
+        margin-bottom: 20px;
     }
 }

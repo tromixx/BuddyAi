@@ -8,8 +8,8 @@
 <div class="app-container">
     <!-- Robot Display -->
     <div class="robot-display">
-        <img src="@_currentRobotImage" 
-             alt="AI Buddy" 
+        <img src="@_currentRobotImage"
+             alt="AI Buddy"
              class="robot-image @(_isRobotActive ? "pulse-animation" : "")" />
     </div>
 
@@ -20,7 +20,7 @@
                 <MudText Typo="Typo.h6" Color="Color.Primary">Purple Pete Assistant</MudText>
             </div>
 
-            <div class="messages-container">
+            <div class="messages-container" @ref="_messagesContainer">
                 @foreach (var message in _messages)
                 {
                     <div class="@($"message {(message.Sender == "You" ? "user-message" : "bot-message")}")">
@@ -54,16 +54,18 @@
             </div>
 
             <div class="input-container">
-                <MudTextField @bind-Value="_currentMessage" 
-                             Variant="Variant.Outlined"
-                             FullWidth="true"
-                             Placeholder="Ask me anything..."
-                             Immediate="true"
-                             OnKeyDown="@OnKeyDown">
+                <MudTextField @bind-Value="_currentMessage"
+                              Variant="Variant.Outlined"
+                              FullWidth="true"
+                              Placeholder="Ask me anything..."
+                              Immediate="true"
+                              Lines="1"
+                              OnKeyDown="@OnKeyDown"
+                              @ref="_messageInputRef">
                     <Adornment>
-                        <MudIconButton Icon="@Icons.Material.Filled.Send" 
-                                     Color="Color.Primary"
-                                     OnClick="SendMessage" />
+                        <MudIconButton Icon="@Icons.Material.Filled.Send"
+                                       Color="Color.Primary"
+                                       OnClick="SendMessage" />
                     </Adornment>
                 </MudTextField>
             </div>

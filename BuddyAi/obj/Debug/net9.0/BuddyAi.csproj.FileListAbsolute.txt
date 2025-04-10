@@ -125,3 +125,4 @@
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/BuddyAi.pdb
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/BuddyAi.genruntimeconfig.cache
 /Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/ref/BuddyAi.dll
+/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz

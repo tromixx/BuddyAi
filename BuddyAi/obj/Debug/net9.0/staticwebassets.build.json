@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BI9dhYWgQd5SI8wcfbr0CeMtd+SKh7S0FmYDyi4HSbI=",
+  "Hash": "R3GKAXdZqT6QnTgYA3IVfy9HsGyQZeQPToLUOrSBRpc=",
   "Source": "BuddyAi",
   "BasePath": "_content/BuddyAi",
   "Mode": "Default",
@@ -183,6 +183,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz",
+      "SourceId": "BuddyAi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/BuddyAi",
+      "RelativePath": "css/index#[.{fingerprint=l0c01c6vhv}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/index.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ke3bqauyc",
+      "Integrity": "dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/index.css"
     },
     {
       "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kpl6gzms48-zh9s866nx2.gz",
@@ -498,6 +519,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/index.css",
+      "SourceId": "BuddyAi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/",
+      "BasePath": "_content/BuddyAi",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l0c01c6vhv",
+      "Integrity": "1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/index.css"
     },
     {
       "Identity": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/FONT-LICENSE",
@@ -2716,6 +2758,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-3qo3UHtt1eBcfATKJXtIrY+ZdPuBA21DhCoR49jAwbE="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001267427123"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "788"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.l0c01c6vhv.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001267427123"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "788"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l0c01c6vhv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.l0c01c6vhv.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l0c01c6vhv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1a06Xp6UGqI2/DxPKGZp2aGLaAQ4uXVbJxZKc1BsXHU="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.l0c01c6vhv.css.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/obj/Debug/net9.0/compressed/kaf1b9drah-l0c01c6vhv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 04:09:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l0c01c6vhv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dR8VTQ7/sQ8kQuvUPzuEke6US48JM60mWNO6xolKKgw="
         }
       ]
     },

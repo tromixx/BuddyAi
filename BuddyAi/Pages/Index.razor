@@ -3,6 +3,8 @@
 @using MudBlazor
 @implements IDisposable
 
+<link href="css/index.css" rel="stylesheet" />
+
 <div class="app-container">
     <!-- Robot Display -->
     <div class="robot-display">
@@ -10,14 +12,14 @@
              alt="AI Buddy" 
              class="robot-image @(_isRobotActive ? "pulse-animation" : "")" />
     </div>
-    
+
     <!-- Chat Interface -->
     <div class="chat-interface">
         <MudPaper Elevation="10" Class="pa-4" Style="height: 70vh; width: 100%;">
             <div class="chat-header">
                 <MudText Typo="Typo.h6" Color="Color.Primary">Purple Pete Assistant</MudText>
             </div>
-            
+
             <div class="messages-container">
                 @foreach (var message in _messages)
                 {
@@ -33,7 +35,7 @@
                         </MudPaper>
                     </div>
                 }
-                
+
                 @if (_isTyping)
                 {
                     <div class="message bot-message">
@@ -50,7 +52,7 @@
                     </div>
                 }
             </div>
-            
+
             <div class="input-container">
                 <MudTextField @bind-Value="_currentMessage" 
                              Variant="Variant.Outlined"
@@ -68,246 +70,3 @@
         </MudPaper>
     </div>
 </div>
-
-@code {
-    private List<ChatMessage> _messages = new();
-    private string _currentMessage = string.Empty;
-    private bool _isTyping = false;
-    private bool _isRobotActive = false;
-    private string _currentRobotImage = "/avatars/PurpleRobot.png";
-    private DotNetObjectReference<Index>? _objRef;
-    private Timer? _typingTimer;
-    private string _pendingResponse = "At the moment we are under maintenance...";
-    private int _responseIndex = 0;
-
-    protected override void OnInitialized()
-    {
-        _objRef = DotNetObjectReference.Create(this);
-        // Add welcome message
-        _messages.Add(new ChatMessage(
-            "Purple Pete", 
-            "Hi! My name is Purple Pete and I'm here to help!", 
-            "/avatars/PurpleRobot.png"
-        ));
-    }
-
-    private async Task OnKeyDown(KeyboardEventArgs e)
-    {
-        if (e.Key == "Enter")
-        {
-            await SendMessage();
-        }
-    }
-
-    private async Task SendMessage()
-    {
-        if (string.IsNullOrWhiteSpace(_currentMessage)) return;
-        
-        // Add user message
-        _messages.Add(new ChatMessage("You", _currentMessage, null));
-        _currentMessage = string.Empty;
-        
-        // Start bot response
-        _isTyping = true;
-        _isRobotActive = true;
-        _currentRobotImage = "/avatars/PurpleRobotTalking.png";
-        StateHasChanged();
-        
-        // Set up the typing animation
-        _responseIndex = 0;
-        
-        _typingTimer = new Timer(async _ => 
-        {
-            await InvokeAsync(() =>
-            {
-                if (_responseIndex < _pendingResponse.Length)
-                {
-                    var currentText = _pendingResponse.Substring(0, _responseIndex + 1);
-                    
-                    // Remove any existing bot typing message
-                    if (_messages.LastOrDefault()?.Sender == "Purple Pete")
-                    {
-                        _messages.RemoveAt(_messages.Count - 1);
-                    }
-                    
-                    _messages.Add(new ChatMessage(
-                        "Purple Pete", 
-                        currentText, 
-                        "/avatars/PurpleRobotTalking.png"
-                    ));
-                    
-                    _responseIndex++;
-                    StateHasChanged();
-                }
-                else
-                {
-                    // Typing complete
-                    _typingTimer?.Dispose();
-                    _typingTimer = null;
-                    _isTyping = false;
-                    _isRobotActive = false;
-                    _currentRobotImage = "/avatars/PurpleRobot.png";
-                    StateHasChanged();
-                }
-            });
-        }, null, 0, 100); // 100ms between characters (~4 second total typing time)
-    }
-
-    public void Dispose()
-    {
-        _typingTimer?.Dispose();
-        _objRef?.Dispose();
-    }
-
-    public record ChatMessage(string Sender, string Text, string? Avatar);
-}
-
-<style>
-    .app-container {
-        display: flex;
-        height: 100vh;
-        padding: 20px;
-        gap: 20px;
-        background-color: #f5f5f5;
-    }
-    
-    .robot-display {
-        width: 250px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: sticky;
-        top: 20px;
-        align-self: flex-start;
-    }
-    
-    .robot-image {
-        max-width: 100%;
-        height: auto;
-        transition: transform 0.3s ease;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    
-    .pulse-animation {
-        animation: pulse 2s infinite;
-    }
-    
-    @@keyframes pulse {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.05); }
-        100% { transform: scale(1); }
-    }
-    
-    .chat-interface {
-        flex: 1;
-        min-width: 0;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .chat-header {
-        padding: 10px 16px;
-        border-bottom: 1px solid #e0e0e0;
-        margin-bottom: 10px;
-    }
-    
-    .messages-container {
-        flex: 1;
-        overflow-y: auto;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-    }
-    
-    .message {
-        display: flex;
-        max-width: 80%;
-    }
-    
-    .user-message {
-        align-self: flex-end;
-        flex-direction: row-reverse;
-    }
-    
-    .bot-message {
-        align-self: flex-start;
-    }
-    
-    .message-avatar {
-        margin: 0 8px;
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    .message-avatar img {
-        border-radius: 50%;
-    }
-    
-    .message-bubble {
-        border-radius: 18px;
-    }
-    
-    .user-message .message-bubble {
-        background-color: var(--mud-palette-primary);
-        color: white;
-    }
-    
-    .bot-message .message-bubble {
-        background-color: #f0f0f0;
-    }
-    
-    .typing-bubble {
-        width: 60px;
-    }
-    
-    .typing-animation {
-        display: inline-flex;
-        gap: 4px;
-    }
-    
-    .typing-animation span {
-        width: 8px;
-        height: 8px;
-        background: #7b1fa2;
-        border-radius: 50%;
-        display: inline-block;
-        animation: typing 1.4s infinite both;
-    }
-    
-    .typing-animation span:nth-child(2) {
-        animation-delay: 0.2s;
-    }
-    
-    .typing-animation span:nth-child(3) {
-        animation-delay: 0.4s;
-    }
-    
-    @@keyframes typing {
-        0%, 60%, 100% { transform: translateY(0); }
-        30% { transform: translateY(-5px); }
-    }
-    
-    .input-container {
-        padding: 16px;
-        border-top: 1px solid #e0e0e0;
-    }
-    
-    @@media (max-width: 768px) {
-        .app-container {
-            flex-direction: column;
-            height: auto;
-            min-height: 100vh;
-        }
-        
-        .robot-display {
-            width: 150px;
-            margin: 0 auto;
-        }
-        
-        .message {
-            max-width: 90%;
-        }
-    }
-</style>

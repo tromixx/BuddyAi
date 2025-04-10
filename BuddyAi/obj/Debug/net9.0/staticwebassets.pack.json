@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
+      "Id": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/index.css",
+      "PackagePath": "staticwebassets/css/index.css"
+    },
+    {
       "Id": "/Users/tomasvenere/Desktop/Repos/BuddyAi/BuddyAi/wwwroot/css/open-iconic/FONT-LICENSE",
       "PackagePath": "staticwebassets/css/open-iconic"
     },

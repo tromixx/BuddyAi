@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuddyAi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8157832ff34ffe579efc4d85500c99420c1ff1df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+264fb9e9b27dfd32a14d2009b7974120dec9040a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuddyAi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuddyAi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

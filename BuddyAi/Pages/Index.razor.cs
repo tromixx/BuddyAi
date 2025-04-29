@@ -19,9 +19,11 @@ namespace BuddyAi.Pages
         private System.Timers.Timer? _typingTimer;
         private int _responseIndex = 0;
         private string _pendingResponse = "At the moment we are under maintenance...";
+        private string _confluenceContent = string.Empty;
 
         private ElementReference _messagesContainer;
         private MudTextField<string>? _messageInputRef;
+        [Inject] private ConfluenceService ConfluenceService { get; set; } = default!;
 
         protected override void OnInitialized()
         {
@@ -100,6 +102,12 @@ namespace BuddyAi.Pages
         {
             await Task.Delay(50); 
             await JsRuntime.InvokeVoidAsync("scrollToBottom", _messagesContainer); 
+        }
+
+        public async Task FetchConfluenceData()
+        {
+            _confluenceContent = await ConfluenceService.GetPageContent();
+            StateHasChanged();
         }
 
         public void Dispose()
